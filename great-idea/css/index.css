@@ -144,7 +144,7 @@ hr{
 .contact p{
 	height: 50px;
 	width: 100%;
-	border:1px solid red;
+	/* border:1px solid red; */
 	display: flex;
 	flex-direction: column;
 }
@@ -152,11 +152,15 @@ hr{
 footer{
 	width: 100%;
 	padding-left: 250px;
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 	/* margin: 10px; */
 	margin-right: 300px;
-	border:1px solid blue;
+	/* border:1px solid blue; */
 
+}
+ 
+footer p{
+	margin-left: 230px;
 }
 /* Thanks for the extra day */
