@@ -66,7 +66,8 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
 	/* border:1px solid red; */
-	margin:100px 100px;
+	margin:0px auto;
+	width: 70%;
 }
 
 header { 
@@ -77,27 +78,25 @@ header {
 
 }
 nav a{
-	width: 75%; 
+	width: 80%; 
 	height: 100px;
-	margin-right: 75px;
+	margin-right: 40px;
 	/* border:1px solid red; */
 }
 .logo{
 	/* border:1px solid red; */
 	width: 18%;
-	/* margin-left: 20px; */
+	margin-left: 20px;
 }
 
-hr{
-	font-size:3px;
-}
+
 .cta {
 	/* border:1px solid red; */
 	display: flex;
 }
 .cta-text {
 	/* border:1px solid red; */
-	margin-right: 200px;
+	margin-right: 100px;
 	font-size: 50px;
 	width: 40%;
 	align-items: center;
@@ -112,7 +111,7 @@ hr{
 
 .top-img {
 	/* border:1px solid red; */
-	margin-left: 100px;
+	margin-left: 10px;
 	margin-right:150px;
 
 }
@@ -124,7 +123,7 @@ hr{
 }
 .middle-img {
 	/* border:1px solid red; */
-	margin-left: 100px;
+	/* margin-left: 100px; */
 	margin-top:50px;
 	margin-bottom: 65px;
 	display: flex;
@@ -134,28 +133,31 @@ hr{
 .bottom-content {
 	/* border:1px solid red; */
 	margin:10px 0;
-	margin-bottom: 65px;
+	margin-bottom: 60px;
 	display: flex;
 	align-content: space-between;
 }
+
 .contact {
-	height: 75px;
+	margin-top:20px;
 }
 .contact p{
 	height: 50px;
 	width: 100%;
-	border:1px solid red;
-	display: flex;
-	flex-direction: column;
+	/* border:1px solid red;  */
+	/* display: flex;
+	flex-direction: column; */
 }
 
 footer{
 	width: 100%;
-	padding-left: 250px;
+	padding-left: 100px;
 	display: flex;
 	justify-content: center;
 	/* margin: 10px; */
 	margin-right: 300px;
-	border:1px solid blue;
+	/* border:1px solid blue; */
 
-}
+} 
+/* more change */
+/* change for the sake of change */
