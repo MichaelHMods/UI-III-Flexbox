@@ -64,3 +64,98 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	/* border:1px solid red; */
+	margin:100px 100px;
+}
+
+header { 
+	/* border:1px solid red; */
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+
+}
+nav a{
+	width: 75%; 
+	height: 100px;
+	margin-right: 75px;
+	/* border:1px solid red; */
+}
+.logo{
+	/* border:1px solid red; */
+	width: 18%;
+	/* margin-left: 20px; */
+}
+
+hr{
+	font-size:3px;
+}
+.cta {
+	/* border:1px solid red; */
+	display: flex;
+}
+.cta-text {
+	/* border:1px solid red; */
+	margin-right: 200px;
+	font-size: 50px;
+	width: 40%;
+	align-items: center;
+	padding: 100px;
+}
+.cta-text button{
+	/* border:1px solid red; */
+	font-size:20px;
+	width: 150px;
+
+}
+
+.top-img {
+	/* border:1px solid red; */
+	margin-left: 100px;
+	margin-right:150px;
+
+}
+.top-content {
+	/* border:1px solid red; */
+	margin: 25px 0px;
+	display: flex;
+	align-content: space-between;
+}
+.middle-img {
+	/* border:1px solid red; */
+	margin-left: 100px;
+	margin-top:50px;
+	margin-bottom: 65px;
+	display: flex;
+	align-content: center;
+}
+
+.bottom-content {
+	/* border:1px solid red; */
+	margin:10px 0;
+	margin-bottom: 65px;
+	display: flex;
+	align-content: space-between;
+}
+.contact {
+	height: 75px;
+}
+.contact p{
+	height: 50px;
+	width: 100%;
+	border:1px solid red;
+	display: flex;
+	flex-direction: column;
+}
+
+footer{
+	width: 100%;
+	padding-left: 250px;
+	display: flex;
+	justify-content: center;
+	/* margin: 10px; */
+	margin-right: 300px;
+	border:1px solid blue;
+
+}
