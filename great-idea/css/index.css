@@ -80,7 +80,7 @@ nav a{
 	width: 75%; 
 	height: 100px;
 	margin-right: 75px;
-	/* border:1px solid red; */
+	border:1px solid red;
 }
 .logo{
 	/* border:1px solid red; */
@@ -163,4 +163,67 @@ footer{
 footer p{
 	margin-left: 230px;
 }
-/* Thanks for the extra day */
+
+.service-page {
+	margin: 0px 100px;
+	/* border: 1px solid red; */
+
+}
+
+.service-header {
+	display: flex;
+	align-items: center;
+	border: 1px solid dodgerblue;
+}
+.service-nav {
+	border: 1px solid green;
+	width: 60%;
+	display: flex;
+}
+.services-logo {
+	display: flex;
+	width: 15%;
+	margin-bottom:50px;
+	border: 1px solid skyblue;
+}
+
+.services-header-img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.services-container {
+	padding-left: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+
+}
+.services-box {
+	border: 1px solid gray;
+	background-color: #d8d8d8;
+	width: 40%;
+	padding: 10px 0;
+	margin: 20px;
+	align-items:left;
+	display: flex;
+	flex-direction: column;
+	 
+}
+
+.services-headers {
+	margin:15px;
+	/* border: 1px solid red; */
+}
+
+.service-description {
+	margin: 15px 15px;
+	/* border: 1px solid red; */
+}
+
+.services-button {
+	width:100px;
+	margin-left: 15px;
+
+}
